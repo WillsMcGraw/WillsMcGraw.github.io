@@ -71,6 +71,7 @@ h2 {
 }
 
 .project-entry {
+    position: relative;
     width: 100%;
     max-width: 400px;
     height: 374px;
@@ -91,11 +92,30 @@ h2 {
 }
 
 .project-entry-description {
-    height: 49%;
+    height: 42%;
     background-color: #dfdfe2;
+    margin: 0px 0px;
+}
+
+.project-entry-description > p {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h4 {
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    text-align: center;
+    background-color: #dfdfe2;
+    margin: 15px 0px 0px 0px;
+    padding: 5px 0px;
+    bottom: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin: 0px 0px;
+    background-color: #1b1b32;
 }
 
 .project-entry::after {
@@ -106,12 +126,31 @@ h2 {
 .project-entry h3 {
     background-color: #1b1b32;
     color: #dfdfe2;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: -5px;
+    padding-bottom: 0px;
+    padding: 5px 0px;
     text-align: center;
+    height: 20%;
 }
 
 .project-entry p {
-    margin: -15px 5px;
+    margin: -18px 5px;
+    height: 80%;
+    border: 0px;
+}
 
+a {
+    color: #dfdfdf;
+}
+
+a:visited {
+    color: #dfdfdf
+}
+
+a:hover {
+    color: #dfdfdf;
+}
+
+a:active {
+    color: #dfdfdf;
 }
