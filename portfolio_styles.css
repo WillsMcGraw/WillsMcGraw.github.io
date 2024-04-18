@@ -9,12 +9,12 @@ body {
     font-family: Helvetica;
 }
 
-.header {
+header {
     width: 100%;
-    text-align: center;
     padding: 32px;
     background-color: #1b1b32;
     color: #f5f6f7;
+    text-align: center;
     border-bottom: 4px solid #fdb347;
 }
 
@@ -32,6 +32,7 @@ h2 {
     border-bottom: 4px solid #dfdfe2;
     margin-top: 0px;
     padding-top: 60px;
+    text-align: center;
 }
 
 .about-me-section {
@@ -47,6 +48,14 @@ h2 {
 .text-description {
     width: 45%;
     max-width: 300px;
+}
+
+.text-description > p {
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0px;
 }
 
 .personal-photo {
